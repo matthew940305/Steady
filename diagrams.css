@@ -1,0 +1,9 @@
+.visual-diagram{display:flex;align-items:center;justify-content:center;gap:18px;position:relative;z-index:2;padding-bottom:22px}
+.diagram-badge{width:105px;height:105px;border:2px solid rgba(255,255,255,.9);background:#ffffffb8;display:grid;place-items:center;border-radius:28px;color:var(--visual-tone);box-shadow:0 15px 30px #2c5a4512}
+.diagram-badge:first-child{transform:rotate(-8deg)}
+.diagram-badge:last-of-type{transform:rotate(8deg)}
+.diagram-badge svg{width:53px;height:53px;stroke-width:1.35}
+.diagram-arrow{color:var(--visual-tone)}
+.diagram-arrow svg{width:27px;height:27px}
+.diagram-caption{position:absolute;bottom:-7px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--visual-tone);background:#fff;border-radius:30px;padding:7px 12px}
+@media(max-width:480px){.diagram-badge{width:80px;height:80px;border-radius:22px}.diagram-badge svg{width:42px;height:42px}.diagram-arrow svg{width:20px;height:20px}.visual-diagram{gap:9px}}
